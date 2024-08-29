@@ -1,0 +1,35 @@
+.floatmenu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.floatmenu__wrap {
+  width: 100px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color--default);
+  padding: 7px 7px 16px;
+  position: absolute;
+  right: 25px;
+  top: 100px;
+}
+
+.floatmenu__topbtn {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid var(--border-color--default);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  right: 50px;
+  bottom: 100px;
+}
+
+.floatmenu__topbtn p {
+  font-size: var(--font-size--xsm);
+}

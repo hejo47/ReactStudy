@@ -6,11 +6,9 @@ import Container from "./Container";
 const Header = () => {
   return (
     <header className={styles.header}>
-      <Container>
-        Header
-      </Container>
+      <Container></Container>
     </header>
   );
-}
+};
 
 export default Header;
